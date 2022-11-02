@@ -37,6 +37,8 @@ h3 {
     background: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?k=20&m=537331500&s=612x612&w=0&h=vnE5e_eExMtetDyYBTBoORFkxiK02o9H6KfgFwvKt4c=) no-repeat center center / cover;
     color: #fff;
     margin-right: 5px;
+    border-radius: 5px;
+
 
 }
 
@@ -49,6 +51,8 @@ h3 {
     height: 100%;
     background: black;
     opacity: 0.5;
+    border-radius: 5px;
+
 }
 
 .title {
@@ -77,8 +81,7 @@ h3 {
     text-decoration: none;
     color: gray;
     font-weight: bold;
-    border-right: 1px solid gray; 
-    border-left: 1px solid gray; 
+    border-right: 1px solid gray;
     transition: background .3s;
 }
 
@@ -93,10 +96,7 @@ h3 {
 .content {
     width: 70%;
     padding: 20px;
-}
-
-.content p {
-    line-height: 25 px;
+    line-height: 25px;
 }
 
 .sidebar {
@@ -119,19 +119,17 @@ h3 {
     background: gainsboro;
     margin: 0 auto;
     border-radius: 10px;
-
-	position: static;
-	bottom: 0px;
-	padding: 10px;
-	width: 800px;
+    position: static;
+    bottom: 0px;
+    padding: 10px;
+    width: 800px;
     height: 100%;
     text-align: center;
 }
 
-
-.footer p{
-	list-style-type: none;
-	padding: 20px;
-	line-height: 7px;
-	font-weight: bold;
+.footer p {
+    list-style-type: none;
+    padding: 20px;
+    line-height: 7px;
+    font-weight: bold;
 }
